@@ -11,12 +11,7 @@
 </head>
 
 <body class="bg-gradient-primary"><div class="container">
-<?php
-$strJsonFileContents = file_get_contents("acquisition-plan.json");
-$json = json_decode($strJsonFileContents, true);
-echo json->1;
-?>
-
+    <?php print(Date("l F d, Y"));?>
     <div class="card shadow-lg o-hidden border-0 my-5">
         <div class="card-body p-0">
             <div class="row">
